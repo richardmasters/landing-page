@@ -1,0 +1,20 @@
+h1 {
+    width: auto;
+    margin: 0;
+    font-size:15px;
+    display: inline;
+}
+ul, nav {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+ul {
+    width: 400px;
+}
+nav {
+    margin: 20px 50px;
+}
