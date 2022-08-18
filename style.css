@@ -1,8 +1,9 @@
 h1 {
     width: auto;
     margin: 0;
-    font-size:15px;
     display: inline;
+    color: #f9faf8;
+    font-size: 24px;
 }
 ul, nav {
     display: flex;
@@ -17,4 +18,13 @@ ul {
 }
 nav {
     margin: 20px 50px;
+}
+.top {
+    background-color:#1F2937 ;
+}
+
+h2 {
+    font-weight:extra-bold;
+    font-size: 48px;
+    color:#F9FAF8;
 }
