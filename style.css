@@ -1,92 +1,141 @@
 body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
+
 h1 {
     width: auto;
     margin-left: 50px;
     color: #f9faf8;
     font-size: 24px;
 }
-ul, nav {
+
+ul,
+nav {
     display: flex;
     margin: 0;
     justify-content: space-between;
 }
+
 li {
     list-style: none;
 }
+
 ul {
     width: 400px;
 }
+
 nav {
     padding: 20px 50px;
 }
+
 .top {
-    background-color:#1F2937;
-    height:500px;
+    height: 500px;
 }
 
 h2 {
     font-size: 48px;
-    color:#F9FAF8;
-    margin-left:0px;
+    color: #F9FAF8;
+    margin-left: 0px;
     /* margin-right:500px; */
-    margin-top:0px;
-    margin-bottom:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
 .Header {
     font-size: 18px;
-    color:#E5E7EB;
+    color: #E5E7EB;
 }
+
 #b1 {
-    background-color:#3882F6;
-    color:white;
-    border:30px;
-    border-radius:30px;
+    background-color: #3882F6;
+    color: white;
+    border: 30px;
+    border-radius: 30px;
     font-size: 18px;
 }
-.p1, h2 {
+
+.p1,
+h2 {
     display: flex;
 }
+
 .main-img {
     background-color: red;
     width: 400px;
-    height:200px;
-    margin-right:0px;
+    height: 200px;
+    margin-right: 0px;
 }
+
 .meow {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin: 0 200px;
 }
+
 .bark {
     width: 400px;
     /* margin-left:100px; */
 }
-.p1{
+
+.p1 {
     width: 400px;
     margin: 20px 0;
 }
+
 h3 {
-    text-align:center;
+    text-align: center;
     font-size: 30px;
 }
+
 .img1 {
     margin-left: 200px;
     gap: 150px;
-    width:500px;
-    height:200px;
-    display:flex;
+    width: 500px;
+    height: 200px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .img1 img {
     width: 150px;
     height: 150px;
-    background-color:blue;
+    background-color: blue;
     border-radius: 20px;
 }
-.whatever {
-    
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#p2 {
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 36px;
+    font-weight: light;
+}
+
+#p3 {
+    margin-top: 0;
+    margin-left: 400px;
+    font-size: 18px;
+    font-weight: bold
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color:white;
+}
+
+.top,
+footer {
+    background-color: #1F2937;
 }
