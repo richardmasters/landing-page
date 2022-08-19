@@ -108,6 +108,8 @@ h3 {
 .quote {
     background-color: #E5E7EB;
     text-align: center;
+    padding-top: 10px;
+    
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -122,10 +124,49 @@ h3 {
 }
 
 #p3 {
-    margin-top: 0;
+    margin-top: 0px;
     margin-left: 400px;
     font-size: 18px;
-    font-weight: bold
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#b1, .blue-section {
+    background-color: #3882F6;
+}
+
+.white-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blue-section {
+    margin-bottom:30px;
+    border-radius: 30px;
+    width: 700px;
+    height:100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#action {
+    color:white;
+    font-size:large;
+    margin-bottom: 5px;
+}
+
+#product {
+    margin-top: 5px;
+    color: white;
+
 }
 
 footer {
